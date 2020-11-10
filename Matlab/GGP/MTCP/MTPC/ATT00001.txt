@@ -1,0 +1,69 @@
+
+
+
+
+On 4 Oct 2015, at 13:39, Eckhard Schlemm <eckhard.schlemm.13@ucl.ac.uk> wrote:
+
+> Hi Mark,
+> 
+> thanks a lot for your note. Please don't worry about the delay, I've been busy myself starting a new short-term placement at Basildon Hospital. I'm looking forward to your message once you find the time.
+> 
+> Bw,
+> Eckhard
+> 
+> On 29/09/15 19:57, Mark Drakesmith wrote:
+>> Hi Eckard
+>> 
+>> I’m sorry i have been so slow getting back to you. I have not forgotten to do this, I have simply been swamped with conferences, deadlines, etc. I will try yo working this soon.
+>> 
+>> Sorry again for the delay!
+>> Mark
+>> 
+>> 
+>> On 5 Sep 2015, at 11:28, Eckhard Schlemm <eckhard.schlemm.13@ucl.ac.uk> wrote:
+>> 
+>>> Hi Mark,
+>>> 
+>>> thanks for your reply. My networks are derived from structural data (DTI tractography) and I'm comparing global graph parameters (in particular characteristic path length and global efficiency) between Tourette patients and controls. Since any difference between groups appears to be restricted to a fairly small range of thresholding parameters, I think mtpc might be helpful in quantifying the significance of the difference.
+>>> 
+>>> If you could send me a snippet of your code that would be most gratefully appreciated!
+>>> 
+>>> BW, Eckhard
+>>> 
+>>> On 05/09/15 01:08, Mark Drakesmith wrote:
+>>>> Wet
+>>>> Hi Eckard
+>>>> 
+>>>> Thanks for your email. Unfortunately implementation of mtpc is dependent
+>>>> on the specific stats being performed. If you let me know what your
+>>>> design is I can maybe fit my code to it and send you a snippet. I've
+>>>> been trying to write a generalised version of mtpc but it's not that easy.
+>>>> 
+>>>> Are you working on structural or functional networks? Functional
+>>>> networks need some extra considerations that structural networks don't
+>>>> need.
+>>>> 
+>>>> Thanks
+>>>> 
+>>>> Mark
+>>>> ------------------------------------------------------------------------
+>>>> *From:* Eckhard Schlemm <eckhard.schlemm.13@ucl.ac.uk>
+>>>> *Sent:* Friday, September 4, 2015 8:52:32 PM
+>>>> *To:* Mark Drakesmith
+>>>> *Subject:* Implementation of multi-threshold permutation correction
+>>>> Dear Dr Drakesmith,
+>>>> 
+>>>> my name is Eckhard Schlemm, final year medical student at UCL in London.
+>>>> In my research I am using graph theoretical methods to analyse network
+>>>> properties in Tourette and stroke patients. I came across your very
+>>>> interesting recent paper, in which you propose the MTPC method to deal
+>>>> with the threshold selection bias in network comparisons.
+>>>> 
+>>>> Since I would quite like to use your method in one of my projects, I was
+>>>> wondering if an implementation is already available or if you plan to
+>>>> release one in the future.
+>>>> 
+>>>> Many thank and kind regards,
+>>>> Eckhard
+>> 
+

@@ -1,0 +1,32 @@
+tracking='intra';
+normalisation='sum';
+idx_thr_str={'idx_con'};
+if strcmp(tracking,'intra')
+    regions={'lh','rh'};
+elseif strcmp(tracking,'inter')
+    regions={'all'};
+end
+preprocess
+idx_all = logical(idx_con+idx_lh+idx_rh);
+
+
+idx_thr=eval(idx_thr_str{1});
+
+region='lh';
+prepare_region
+CIJstack=cell2mat(CIJcell_region(1,1,idx_all));
+
+region='rh';
+prepare_region
+CIJstack=cat(3,CIJstack,cell2mat(CIJcell_region(1,1,idx_all)));
+
+I=find(SDNmask);
+
+CIJbyID=reshape(CIJstack,[41*41,84]);
+
+%[subjID,side,relpos,edgeID,weight]
+M=[];
+
+for i=1:length(I)
+    [repmat((1:n)',[2,1]), kron([0;1],ones(n,1)), ]
+end
